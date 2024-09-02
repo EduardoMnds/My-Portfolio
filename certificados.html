@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="css/certificados.css">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+
+        <div class="nav">
+            <a href="index.html">Home Page</a>
+            <a href="#portfolio">Certificates</a>
+            <a href="#contact">About Me</a>
+            <a href="#about">Contact</a>
+        </div>
+
+        <div class="nav-responsive">
+            <a href="index.html">Home Page</a>
+            <a href="#portfolio">Certificates</a> 
+            <a href="#contact">About Me</a>
+            <a href="#about">Contact</a>
+        </div>
+
+
+        <div class="menu-hamburguer">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+
+    <!-- home section -->
+     <section class="home" id="home" style="background-color: black;">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Eduardo Mendes Germano</h1>
+            <h3><span>Full-Stack Intern</span></h3>
+        </div>
+        
+        <div>
+            <img src="img/java_logo_icon_168609 (1).png" class="float-image">
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="img/Imagem do WhatsApp de 2024-07-03 à(s) 17.28.41_0631490b.png" alt="Profile picture">
+        </div>   -->
+     </section>
+    <!-- /home section -->
+
+    <!-- portfólio section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Latest <span>Certificates</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="img/fiap.png" alt="Portfolio 1">
+
+                <div class="portfolio-layer">
+                    <h4>JAVA Fundamentos</h4>
+                    <a href="img/fiap.png" id="cert1" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="img/cursoemvideo.jpg" alt="Portfolio 1">
+
+                <div class="portfolio-layer">
+                    <h4>JAVA POO</h4>
+                    <a href="files/cert1.pdf" id="cert1" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/udemy1.jpg" alt="Portfolio 1">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <a href="files/cert3.pdf" id="cert1" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/udemy2.jpg" alt="Portfolio 1">
+
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <a href="files/cert4.pdf" id="cert1" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <a href="allcertificados.html" class="btn" id="whatsButton" target="_blank">All Certificates</a>
+        <!--  -->
+
+    </section>
+    <!-- /portfólio section -->
+
+    <!-- contact section -->
+     <section class="contact" id="contact">
+        <h2>All About <span>Me!</span></h2>
+
+        <form action="send_email.php" method="post">
+            <textarea name="message" cols="50" rows="25" placeholder="Message" required readonly>   I am currently in my final semester of Computer Engineering studies, where I am refining my skills in software development and system design. Alongside my academic pursuits, I have achieved advanced proficiency in English, enabling me to collaborate and communicate effectively in a global context. Concurrently, I am gaining valuable industry experience as an intern at Samsung SDS, contributing to projects that leverage cutting-edge technologies in software solutions and data management.
+
+    In my professional experience as an intern at Samsung SDS, I am engaged in system support and developer at N1 and N2 levels for WMS (Warehouse Management System) and TMS (Transportation Management System). My responsibilities include developing SQL queries for system monitoring, gathering requirements for system enhancements, updating jobs on servers (Linux, Windows), and utilizing Talend. I also assist with deployments in collaboration with responsible analysts and manage code versioning with GIT and TortoiseSVN. Furthermore, I am involved in maintenance and development using Java, Spring Boot, JavaScript, SQL, HTML, and CSS.
+                
+    I am continuously deepening my knowledge in Java, Spring Boot, JavaScript, SQL, HTML, and CSS. This practical experience, combined with my academic background and advanced English proficiency, equips me to contribute effectively to both the technical and collaborative aspects of projects in a global setting.
+            </textarea>
+            <!-- <button type="submit" class="btn">Send Message</button> -->
+        </form>
+     </section>
+    <!-- /contact section -->
+
+    <!-- about section -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/Imagem do WhatsApp de 2024-07-03 à(s) 17.28.41_a36ac122.png" alt="About me">
+        </div>
+
+        <div class="about-content">
+            <h1>Full-Stack <span> Intern</span></h1>
+            <p>
+                Hello , My name is Eduardo Mendes Germano. Let me introduce myself briefly. I am currently in my final semester of Computer Engineering studies, where I am honing my skills in areas such as software development and system design. Alongside my academic pursuits, I have achieved advanced proficiency in English, enabling me to effectively collaborate and communicate in a global context. Concurrently, I am gaining valuable industry experience as an intern at Samsung SDS, contributing to projects that leverage cutting-edge technologies in software solutions and data management.
+            </p>
+
+            <!-- <a href="https://wa.me/+5511950355939?text=" class="btn" id="whatsButton">Send me a Message</a> -->
+            <a href="https://wa.me/+5511950355939?text=" class="btn" id="whatsButton" target="_blank">Send me a Message</a>
+        </div>
+     </section>
+    <!-- /about section -->
+
+    <footer style="background-color: black;">
+        <p>Copyright &copy; 2024 by <span>Eduardo Mendes Germano</span>. All rights Reserved</p>
+    </footer>
+</body>
+</html>
