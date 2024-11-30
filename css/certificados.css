@@ -88,6 +88,7 @@ span {
     color: var(--main-color);
 }
 
+
 .home, .about {
     display: flex;
     flex-direction: row;
@@ -135,6 +136,7 @@ span {
 
 .services h2,
 .portfolio h2,
+.skills h2,
 .contact h2 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
@@ -223,6 +225,10 @@ span {
 /* /button */
 
 .portfolio {
+    background-color: var(--bg-color-02);
+}
+
+.skills {
     background-color: var(--bg-color-02);
 }
 
@@ -335,6 +341,10 @@ footer {
     width: 3.5rem;
 }
 
+.social-medias img {
+    width: 3.5rem;
+}
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -346,6 +356,20 @@ footer {
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
+    margin: 1.8rem 1rem 1.8rem 0;
+    transition: 0.5s ease;
+}
+
+.social-medias a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: solid 0.15rem var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
     margin: 1.8rem 1rem 1.8rem 0;
     transition: 0.5s ease;
 }
@@ -556,5 +580,53 @@ footer {
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+div.mycontainer {
+    text-align: center;
+    width:100%;
+    overflow:auto;
+  }
+
+div.mycontainer div {
+    text-align: center;
+    width:50%;  
+    float:left;
+}
+
+
+ul {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0; /* Remove o preenchimento */
+    text-align: center; /* Centraliza o texto da lista */
+}
+
+li {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo dos itens */
+    align-items: center; /* Alinha verticalmente os itens */
+    margin-bottom: 8px; /* Espaço entre os itens */
+}
+
+.check-icon {
+    margin-right: 8px; /* Espaço entre o check e o texto */
+}
+
+
+h2 span {
+    display: inline-block;
+    animation: bounce 1s infinite; /* Aplica a animação */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    40% {
+        transform: translateY(-10px); /* Movimento para cima */
+    }
+    60% {
+        transform: translateY(-5px); /* Movimento intermediário */
     }
 }
