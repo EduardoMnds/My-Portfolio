@@ -221,9 +221,10 @@ span {
 }
 /* /button */
 
-.portfolio {
+.portfolio{
     background-color: var(--bg-color-02);
 }
+
 
 .portfolio-container {
     display: grid;
@@ -536,5 +537,22 @@ footer {
 
     .portfolio-container {
         grid-template-columns: auto auto auto;
+    }
+}
+
+h2 span {
+    display: inline-block;
+    animation: bounce 1s infinite; /* Aplica a animação */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    40% {
+        transform: translateY(-10px); /* Movimento para cima */
+    }
+    60% {
+        transform: translateY(-5px); /* Movimento intermediário */
     }
 }
